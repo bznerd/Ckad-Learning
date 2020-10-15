@@ -1,0 +1,8 @@
+The .vimrc file contains the defualt configurations
+
+The .vimrc file included in this repo is configured for optimal yaml editing
+
+For Linux or MacOS copy /ckad-crash-course/Configurations/.vimrc to ~/.vimrc
+
+For Windows copy /ckad-crash-course/Configurations/.vimrc to C:\users\"your username"\.vimrc
+Then rename .vimrc to _vimrc

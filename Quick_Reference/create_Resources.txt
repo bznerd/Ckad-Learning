@@ -1,0 +1,23 @@
+To create a resource declaritively:
+  Generate yaml file with a dry run:
+    For Pods:
+      Use kubectl run ... with --dry-run option specified as client and -o option specified as yaml
+      Write output of command to file using >
+      Ex. kubectl run mypod --image=nginx --dry-run=client -o yaml > mypod.yaml
+
+    For non-pod resources:
+      Use kubectl create ... with --dry-run option specified as client and -o option specified as yaml
+      Write output of commmand to file using >
+      Ex. kubectl create deployment mydeployment --image=nginx --replicas=2 --dry-run=client -o yaml > mydeployment.yaml
+
+
+  Define resource declaritively:
+    For all:
+      Use bash text edditor of choice (vi or vim) to define resource state
+      Save changes
+
+
+  Create defined resource:
+    For all:
+      Use kubectl create with -f option specified as your resource's yaml file
+      Ex. kubectl create -f mypod.yaml

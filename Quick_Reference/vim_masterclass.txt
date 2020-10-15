@@ -1,0 +1,69 @@
+z+Enter: move view keeping curson in place
+w: forward
+b: back
+W: forward without punctuation
+B: back without punctuation
+Ctrl+F: 
+0: move to the begining of the line
+Shift+6 (carat): first character of line
+gg- go to first line in file
+G- go to last line in file
+2gg- 2nd line
+2G- 2nd line
+:G- last line
+:5- 5th line
+:$- reg exp to go to the last line of file
+:set ruler- shows ruler at bottom right
+:set noruler- opposite
+:set ruler!-toggle ruler control
+hjkl- arrow keys
+$-go to the last character of line
+x-delete char
+X-delete char
+dw-delete word (operator motion)
+dl-delete character at cursor
+dh-same as X
+dj-delete lower line
+dk-delete upper line
+d0-delete current cursor to begening of line
+d$
+D-delete current line from current cursor postion
+dd-delete line regardless of where cursor is 
+3dd-deletes three lines
+d3w-delete three words
+2d3w-delete the 3w motion twice.
+.-repreat prior command
+Ctrl+o: Help docs back like browser
+Ctrl+i: Help docs forward like brownser
+Ctrl+]: Help docs hyperlink click
+Ctrl+w: 
+Ctrl+ww:
+:h :q - list commands in help system that matches :q
+:h wild<Tab> - shows wild menu
+:set !wildmenu
+Ctrl+f - 
+Ctrl+ww -
+dd - cut text to the un-named/default register (clipboard)
+p - put / paste command
+ddp - cut and put below (swap line)
+ddP - swap reverse as ddp
+x - cut letter
+p - put letter
+xp - cut latter & put
+0 - move cursor start of line
+y - copy (yank)
+yw - ??
+yy - yank full line
+u - undo
+Ctrl+r - redo
+:reg - show registers, "" - un-named register, "0
+"0P - most recent yanked, not most recent deleted. When 0th register is required.
+I - moves cursor to 1st non blank char in line & insert mode
+A - appends & insert mode after cursor move
+o - places cursor below current line and enters insert mode
+O - above...
+
+
+
+
+
