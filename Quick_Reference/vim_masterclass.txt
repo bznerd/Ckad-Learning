@@ -37,12 +37,12 @@ Ctrl+o: Help docs back like browser
 Ctrl+i: Help docs forward like brownser
 Ctrl+]: Help docs hyperlink click
 Ctrl+w: 
-Ctrl+ww:
 :h :q - list commands in help system that matches :q
 :h wild<Tab> - shows wild menu
 :set !wildmenu
-Ctrl+f - 
-Ctrl+ww -
+Ctrl+f - page down
+Crtl+b - page up
+Ctrl+ww - cycle windows
 dd - cut text to the un-named/default register (clipboard)
 p - put / paste command
 ddp - cut and put below (swap line)
@@ -52,7 +52,7 @@ p - put letter
 xp - cut latter & put
 0 - move cursor start of line
 y - copy (yank)
-yw - ??
+yw - yank word
 yy - yank full line
 u - undo
 Ctrl+r - redo
