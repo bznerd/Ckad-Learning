@@ -3,7 +3,6 @@ w: forward
 b: back
 W: forward without punctuation
 B: back without punctuation
-Ctrl+F: 
 0: move to the begining of the line
 Shift+6 (carat): first character of line
 gg- go to first line in file
@@ -62,8 +61,9 @@ I - moves cursor to 1st non blank char in line & insert mode
 A - appends & insert mode after cursor move
 o - places cursor below current line and enters insert mode
 O - above...
-
-
-
-
+f - forward search for following character
+F - backwards search for following character
+/ - forward search for pattern (cmd)
+? - backward search for pattern (cmd)
+n - next occurence
 
